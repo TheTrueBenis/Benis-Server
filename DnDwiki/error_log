@@ -1,0 +1,88 @@
+[29-Apr-2018 07:04:02 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message '/home/jace/public_html/DnDwiki/extensions/Tabber/extension.json does not exist!' in /home/jace/public_html/DnDwiki/includes/registration/ExtensionRegistry.php:99
+Stack trace:
+#0 /home/jace/public_html/DnDwiki/includes/GlobalFunctions.php(120): ExtensionRegistry->queue('/home/jace/publ...')
+#1 /home/jace/public_html/DnDwiki/LocalSettings.php(139): wfLoadExtension('Tabber')
+#2 /home/jace/public_html/DnDwiki/includes/WebStart.php(102): require_once('/home/jace/publ...')
+#3 /home/jace/public_html/DnDwiki/index.php(40): require('/home/jace/publ...')
+#4 {main}
+  thrown in /home/jace/public_html/DnDwiki/includes/registration/ExtensionRegistry.php on line 99
+[29-Apr-2018 07:04:08 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message '/home/jace/public_html/DnDwiki/extensions/Tabber/extension.json does not exist!' in /home/jace/public_html/DnDwiki/includes/registration/ExtensionRegistry.php:99
+Stack trace:
+#0 /home/jace/public_html/DnDwiki/includes/GlobalFunctions.php(120): ExtensionRegistry->queue('/home/jace/publ...')
+#1 /home/jace/public_html/DnDwiki/LocalSettings.php(139): wfLoadExtension('Tabber')
+#2 /home/jace/public_html/DnDwiki/includes/WebStart.php(102): require_once('/home/jace/publ...')
+#3 /home/jace/public_html/DnDwiki/index.php(40): require('/home/jace/publ...')
+#4 {main}
+  thrown in /home/jace/public_html/DnDwiki/includes/registration/ExtensionRegistry.php on line 99
+[29-Apr-2018 07:04:10 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message '/home/jace/public_html/DnDwiki/extensions/Tabber/extension.json does not exist!' in /home/jace/public_html/DnDwiki/includes/registration/ExtensionRegistry.php:99
+Stack trace:
+#0 /home/jace/public_html/DnDwiki/includes/GlobalFunctions.php(120): ExtensionRegistry->queue('/home/jace/publ...')
+#1 /home/jace/public_html/DnDwiki/LocalSettings.php(139): wfLoadExtension('Tabber')
+#2 /home/jace/public_html/DnDwiki/includes/WebStart.php(102): require_once('/home/jace/publ...')
+#3 /home/jace/public_html/DnDwiki/index.php(40): require('/home/jace/publ...')
+#4 {main}
+  thrown in /home/jace/public_html/DnDwiki/includes/registration/ExtensionRegistry.php on line 99
+[29-Apr-2018 07:04:22 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message '/home/jace/public_html/DnDwiki/extensions/Tabber/extension.json does not exist!' in /home/jace/public_html/DnDwiki/includes/registration/ExtensionRegistry.php:99
+Stack trace:
+#0 /home/jace/public_html/DnDwiki/includes/GlobalFunctions.php(120): ExtensionRegistry->queue('/home/jace/publ...')
+#1 /home/jace/public_html/DnDwiki/LocalSettings.php(139): wfLoadExtension('Tabber')
+#2 /home/jace/public_html/DnDwiki/includes/WebStart.php(102): require_once('/home/jace/publ...')
+#3 /home/jace/public_html/DnDwiki/index.php(40): require('/home/jace/publ...')
+#4 {main}
+  thrown in /home/jace/public_html/DnDwiki/includes/registration/ExtensionRegistry.php on line 99
+[29-Apr-2018 07:04:27 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message '/home/jace/public_html/DnDwiki/extensions/Tabber/extension.json does not exist!' in /home/jace/public_html/DnDwiki/includes/registration/ExtensionRegistry.php:99
+Stack trace:
+#0 /home/jace/public_html/DnDwiki/includes/GlobalFunctions.php(120): ExtensionRegistry->queue('/home/jace/publ...')
+#1 /home/jace/public_html/DnDwiki/LocalSettings.php(139): wfLoadExtension('Tabber')
+#2 /home/jace/public_html/DnDwiki/includes/WebStart.php(102): require_once('/home/jace/publ...')
+#3 /home/jace/public_html/DnDwiki/index.php(40): require('/home/jace/publ...')
+#4 {main}
+  thrown in /home/jace/public_html/DnDwiki/includes/registration/ExtensionRegistry.php on line 99
+[29-Apr-2018 07:04:40 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message '/home/jace/public_html/DnDwiki/extensions/Tabber/extension.json does not exist!' in /home/jace/public_html/DnDwiki/includes/registration/ExtensionRegistry.php:99
+Stack trace:
+#0 /home/jace/public_html/DnDwiki/includes/GlobalFunctions.php(120): ExtensionRegistry->queue('/home/jace/publ...')
+#1 /home/jace/public_html/DnDwiki/LocalSettings.php(139): wfLoadExtension('Tabber')
+#2 /home/jace/public_html/DnDwiki/includes/WebStart.php(102): require_once('/home/jace/publ...')
+#3 /home/jace/public_html/DnDwiki/index.php(40): require('/home/jace/publ...')
+#4 {main}
+  thrown in /home/jace/public_html/DnDwiki/includes/registration/ExtensionRegistry.php on line 99
+[29-Apr-2018 07:04:40 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message '/home/jace/public_html/DnDwiki/extensions/Tabber/extension.json does not exist!' in /home/jace/public_html/DnDwiki/includes/registration/ExtensionRegistry.php:99
+Stack trace:
+#0 /home/jace/public_html/DnDwiki/includes/GlobalFunctions.php(120): ExtensionRegistry->queue('/home/jace/publ...')
+#1 /home/jace/public_html/DnDwiki/LocalSettings.php(139): wfLoadExtension('Tabber')
+#2 /home/jace/public_html/DnDwiki/includes/WebStart.php(102): require_once('/home/jace/publ...')
+#3 /home/jace/public_html/DnDwiki/index.php(40): require('/home/jace/publ...')
+#4 {main}
+  thrown in /home/jace/public_html/DnDwiki/includes/registration/ExtensionRegistry.php on line 99
+[29-Apr-2018 07:04:40 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message '/home/jace/public_html/DnDwiki/extensions/Tabber/extension.json does not exist!' in /home/jace/public_html/DnDwiki/includes/registration/ExtensionRegistry.php:99
+Stack trace:
+#0 /home/jace/public_html/DnDwiki/includes/GlobalFunctions.php(120): ExtensionRegistry->queue('/home/jace/publ...')
+#1 /home/jace/public_html/DnDwiki/LocalSettings.php(139): wfLoadExtension('Tabber')
+#2 /home/jace/public_html/DnDwiki/includes/WebStart.php(102): require_once('/home/jace/publ...')
+#3 /home/jace/public_html/DnDwiki/index.php(40): require('/home/jace/publ...')
+#4 {main}
+  thrown in /home/jace/public_html/DnDwiki/includes/registration/ExtensionRegistry.php on line 99
+[29-Apr-2018 07:04:41 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message '/home/jace/public_html/DnDwiki/extensions/Tabber/extension.json does not exist!' in /home/jace/public_html/DnDwiki/includes/registration/ExtensionRegistry.php:99
+Stack trace:
+#0 /home/jace/public_html/DnDwiki/includes/GlobalFunctions.php(120): ExtensionRegistry->queue('/home/jace/publ...')
+#1 /home/jace/public_html/DnDwiki/LocalSettings.php(139): wfLoadExtension('Tabber')
+#2 /home/jace/public_html/DnDwiki/includes/WebStart.php(102): require_once('/home/jace/publ...')
+#3 /home/jace/public_html/DnDwiki/index.php(40): require('/home/jace/publ...')
+#4 {main}
+  thrown in /home/jace/public_html/DnDwiki/includes/registration/ExtensionRegistry.php on line 99
+[29-Apr-2018 08:18:55 UTC] PHP Warning:  proc_open(/error.log): failed to open stream: Permission denied in /home/jace/public_html/DnDwiki/extensions/Scribunto/engines/LuaStandalone/LuaStandaloneEngine.php on line 244
+[29-Apr-2018 08:18:55 UTC] PHP Warning:  proc_open(/error.log): failed to open stream: Permission denied in /home/jace/public_html/DnDwiki/extensions/Scribunto/engines/LuaStandalone/LuaStandaloneEngine.php on line 244
+[29-Apr-2018 08:18:55 UTC] PHP Warning:  proc_open(/error.log): failed to open stream: Permission denied in /home/jace/public_html/DnDwiki/extensions/Scribunto/engines/LuaStandalone/LuaStandaloneEngine.php on line 244
+[29-Apr-2018 08:18:55 UTC] PHP Warning:  proc_open(/error.log): failed to open stream: Permission denied in /home/jace/public_html/DnDwiki/extensions/Scribunto/engines/LuaStandalone/LuaStandaloneEngine.php on line 244
+[29-Apr-2018 08:38:12 UTC] PHP Warning:  proc_open(path/to/file.log): failed to open stream: No such file or directory in /home/jace/public_html/DnDwiki/extensions/Scribunto/engines/LuaStandalone/LuaStandaloneEngine.php on line 244
+[29-Apr-2018 21:02:53 UTC] PHP Notice:  Undefined offset: 1 in /home/jace/public_html/DnDwiki/extensions/Tabber/Tabber.hooks.php on line 67
+[29-Apr-2018 21:02:53 UTC] PHP Notice:  Undefined offset: 1 in /home/jace/public_html/DnDwiki/extensions/Tabber/Tabber.hooks.php on line 67
+[29-Apr-2018 21:03:15 UTC] PHP Notice:  Undefined offset: 1 in /home/jace/public_html/DnDwiki/extensions/Tabber/Tabber.hooks.php on line 67
+[29-Apr-2018 21:03:15 UTC] PHP Notice:  Undefined offset: 1 in /home/jace/public_html/DnDwiki/extensions/Tabber/Tabber.hooks.php on line 67
+[29-Apr-2018 21:04:31 UTC] PHP Notice:  Undefined offset: 1 in /home/jace/public_html/DnDwiki/extensions/Tabber/Tabber.hooks.php on line 67
+[29-Apr-2018 21:04:31 UTC] PHP Notice:  Undefined offset: 1 in /home/jace/public_html/DnDwiki/extensions/Tabber/Tabber.hooks.php on line 67
+[29-Apr-2018 21:04:35 UTC] PHP Notice:  Undefined offset: 1 in /home/jace/public_html/DnDwiki/extensions/Tabber/Tabber.hooks.php on line 67
+[29-Apr-2018 21:04:35 UTC] PHP Notice:  Undefined offset: 1 in /home/jace/public_html/DnDwiki/extensions/Tabber/Tabber.hooks.php on line 67
+[11-May-2018 03:25:10 UTC] PHP Notice:  ob_end_flush(): failed to delete and flush buffer. No buffer to delete or flush in /home/jace/public_html/DnDwiki/includes/filerepo/FileRepo.php on line 1612
+[11-May-2018 03:27:49 UTC] PHP Notice:  ob_end_flush(): failed to delete and flush buffer. No buffer to delete or flush in /home/jace/public_html/DnDwiki/includes/filerepo/FileRepo.php on line 1612
+[03-Aug-2020 01:10:31 UTC] PHP Warning:  file_get_contents(/home/jace/public_html/DnDwiki/CREDITS): failed to open stream: No such file or directory in /home/jace/public_html/DnDwiki/includes/specials/SpecialVersion.php on line 85

@@ -1,0 +1,250 @@
+ #!/usr/bin/env php
+MediaWiki 1.30.1 Updater
+
+Your composer.lock file is up to date with current dependencies!
+Going to run database updates for jace_mw2-mw_
+Depending on the size of your database this may take a while!
+Turning off Content Handler DB fields for this part of upgrade.
+...have ipb_id field in ipblocks table.
+...have ipb_expiry field in ipblocks table.
+...already have interwiki table
+...indexes seem up to 20031107 standards.
+...have rc_type field in recentchanges table.
+...index new_name_timestamp already set on recentchanges table.
+...have user_real_name field in user table.
+...querycache table already exists.
+...objectcache table already exists.
+...categorylinks table already exists.
+...have pagelinks; skipping old links table updates
+...il_from OK
+...have rc_ip field in recentchanges table.
+...index PRIMARY already set on image table.
+...have rc_id field in recentchanges table.
+...have rc_patrolled field in recentchanges table.
+...logging table already exists.
+...have user_token field in user table.
+...have wl_notificationtimestamp field in watchlist table.
+...watchlist talk page rows already present.
+...user table does not contain user_emailauthenticationtimestamp field.
+...page table already exists.
+...have log_params field in logging table.
+...logging table has correct log_title encoding.
+...have ar_rev_id field in archive table.
+...have page_len field in page table.
+...revision table does not contain inverse_timestamp field.
+...have rev_text_id field in revision table.
+...have rev_deleted field in revision table.
+...have img_width field in image table.
+...have img_metadata field in image table.
+...have user_email_token field in user table.
+...have ar_text_id field in archive table.
+...page_namespace is already a full int (int(11)).
+...ar_namespace is already a full int (int(11)).
+...rc_namespace is already a full int (int(11)).
+...wl_namespace is already a full int (int(11)).
+...qc_namespace is already a full int (int(11)).
+...log_namespace is already a full int (int(11)).
+...have img_media_type field in image table.
+...already have pagelinks table.
+...image table does not contain img_type field.
+...already have unique user_name index.
+...user_groups table exists and is in current format.
+...have ss_total_pages field in site_stats table.
+...user_newtalk table already exists.
+...transcache table already exists.
+...have iw_trans field in interwiki table.
+...wl_notificationtimestamp is already nullable.
+...index times already set on logging table.
+...have ipb_range_start field in ipblocks table.
+...no page_random rows needed to be set
+...have user_registration field in user table.
+...templatelinks table already exists
+...externallinks table already exists.
+...job table already exists.
+...have ss_images field in site_stats table.
+...langlinks table already exists.
+...querycache_info table already exists.
+...filearchive table already exists.
+...have ipb_anon_only field in ipblocks table.
+...index rc_ns_usertext already set on recentchanges table.
+...index rc_user_text already set on recentchanges table.
+...have user_newpass_time field in user table.
+...redirect table already exists.
+...querycachetwo table already exists.
+...have ipb_enable_autoblock field in ipblocks table.
+...index pl_namespace on table pagelinks includes field pl_from.
+...index tl_namespace on table templatelinks includes field tl_from.
+...index il_to on table imagelinks includes field il_from.
+...have rc_old_len field in recentchanges table.
+...have user_editcount field in user table.
+...page_restrictions table already exists.
+...have log_id field in logging table.
+...have rev_parent_id field in revision table.
+...have pr_id field in page_restrictions table.
+...have rev_len field in revision table.
+...have rc_deleted field in recentchanges table.
+...have log_deleted field in logging table.
+...have ar_deleted field in archive table.
+...have ipb_deleted field in ipblocks table.
+...have fa_deleted field in filearchive table.
+...have ar_len field in archive table.
+...have ipb_block_email field in ipblocks table.
+...index cl_sortkey on table categorylinks includes field cl_from.
+...have oi_metadata field in oldimage table.
+...index usertext_timestamp already set on archive table.
+...index img_usertext_timestamp already set on image table.
+...index oi_usertext_timestamp already set on oldimage table.
+...have ar_page_id field in archive table.
+...have img_sha1 field in image table.
+...protected_titles table already exists.
+...have ipb_by_text field in ipblocks table.
+...page_props table already exists.
+...updatelog table already exists.
+...category table already exists.
+...category table already populated.
+...have ar_parent_id field in archive table.
+...have user_last_timestamp field in user_newtalk table.
+...protected_titles table has correct pt_title encoding.
+...have ss_active_users field in site_stats table.
+...ss_active_users user count set...
+...have ipb_allow_usertalk field in ipblocks table.
+...change_tag table already exists.
+...tag_summary table already exists.
+...valid_tag table already exists.
+...user_properties table already exists.
+...log_search table already exists.
+...have log_user_text field in logging table.
+...l10n_cache table already exists.
+...index change_tag_rc_tag already set on change_tag table.
+...have rd_interwiki field in redirect table.
+...transcache tc_time already converted.
+...*_mime_minor fields are already long enough.
+...iwlinks table already exists.
+...index iwl_prefix_title_from already set on iwlinks table.
+...have ul_value field in updatelog table.
+...have iw_api field in interwiki table.
+...iwl_prefix key doesn't exist.
+...have cl_collation field in categorylinks table.
+...categorylinks up-to-date.
+...module_deps table already exists.
+...ar_page_revid key doesn't exist.
+...index ar_revid already set on archive table.
+...ll_lang is up-to-date.
+...user_last_timestamp is already nullable.
+...index user_email already set on user table.
+...up_property in table user_properties already modified by patch patch-up_property.sql.
+...uploadstash table already exists.
+...user_former_groups table already exists.
+...index type_action already set on logging table.
+...have rev_sha1 field in revision table.
+...batch conversion of user_options: nothing to migrate. done.
+...user table does not contain user_options field.
+...have ar_sha1 field in archive table.
+...index page_redirect_namespace_len already set on page table.
+...have us_chunk_inx field in uploadstash table.
+...have job_timestamp field in job table.
+...index page_user_timestamp already set on revision table.
+...have ipb_parent_block_id field in ipblocks table.
+...index ipb_parent_block_id already set on ipblocks table.
+...category table does not contain cat_hidden field.
+...have rev_content_format field in revision table.
+...have rev_content_model field in revision table.
+...have ar_content_format field in archive table.
+...have ar_content_model field in archive table.
+...have page_content_model field in page table.
+Content Handler DB fields should be usable now.
+...site_stats table does not contain ss_admins field.
+...recentchanges table does not contain rc_moved_to_title field.
+...sites table already exists.
+...have fa_sha1 field in filearchive table.
+...have job_token field in job table.
+...have job_attempts field in job table.
+...have us_props field in uploadstash table.
+...ug_group in table user_groups already modified by patch patch-ug_group-length-increase-255.sql.
+...ufg_group in table user_former_groups already modified by patch patch-ufg_group-length-increase-255.sql.
+...index pp_propname_page already set on page_props table.
+...index img_media_mime already set on image table.
+...iwl_prefix_title_from index is already non-UNIQUE.
+...index iwl_prefix_from_title already set on iwlinks table.
+...have ar_id field in archive table.
+...have el_id field in externallinks table.
+...have rc_source field in recentchanges table.
+...index log_user_text_type_time already set on logging table.
+...index log_user_text_time already set on logging table.
+...have page_links_updated field in page table.
+...have user_password_expires field in user table.
+...have pp_sortkey field in page_props table.
+...recentchanges table does not contain rc_cur_time field.
+...index wl_user_notificationtimestamp already set on watchlist table.
+...have page_lang field in page table.
+...have pl_from_namespace field in pagelinks table.
+...have tl_from_namespace field in templatelinks table.
+...have il_from_namespace field in imagelinks table.
+...img_major_mime in table image already modified by patch patch-img_major_mime-chemical.sql.
+...oi_major_mime in table oldimage already modified by patch patch-oi_major_mime-chemical.sql.
+...fa_major_mime in table filearchive already modified by patch patch-fa_major_mime-chemical.sql.
+...comment fields are up to date...hitcounter doesn't exist.
+...site_stats table does not contain ss_total_views field.
+...page table does not contain page_counter field.
+...msg_resource_links doesn't exist.
+...msg_resource doesn't exist.
+...bot_passwords table already exists.
+...have wl_id field in watchlist table.
+...cl_collation key doesn't exist.
+...index cl_collation_ext already set on categorylinks table.
+...collations up-to-date.
+...index rc_name_type_patrolled_timestamp already set on recentchanges table.
+...rev_page_id index already non-unique.
+...pl_namespace, tl_namespace, il_to indices are already non-UNIQUE.
+...have ct_id field in change_tag table.
+...have ts_id field in tag_summary table.
+...rc_ip in table recentchanges already modified by patch patch-rc_ip_modify.sql.
+...index usertext_timestamp already set on archive table.
+...have el_index_60 field in externallinks table.
+...ug_user_group key doesn't exist.
+...have ug_expiry field in user_groups table.
+...index img_user_timestamp already set on image table.
+...img_media_type in table image already modified by patch patch-add-3d.sql.
+...ip_changes table already exists.
+...index PRIMARY already set on categorylinks table.
+...index PRIMARY already set on templatelinks table.
+...index PRIMARY already set on pagelinks table.
+...index PRIMARY already set on text table.
+...index PRIMARY already set on imagelinks table.
+...index PRIMARY already set on iwlinks table.
+...index PRIMARY already set on langlinks table.
+...index PRIMARY already set on log_search table.
+...index PRIMARY already set on module_deps table.
+...index PRIMARY already set on objectcache table.
+...index PRIMARY already set on querycache_info table.
+...index PRIMARY already set on site_stats table.
+...index PRIMARY already set on transcache table.
+...index PRIMARY already set on user_former_groups table.
+...index PRIMARY already set on user_properties table.
+...comment table already exists.
+...index PRIMARY already set on l10n_cache table.
+...bot_passwords.bp_user is already unsigned int.
+...change_tag.ct_log_id is already unsigned int.
+...change_tag.ct_rev_id is already unsigned int.
+...page_restrictions.pr_user is already unsigned int.
+...tag_summary.ts_log_id is already unsigned int.
+...tag_summary.ts_rev_id is already unsigned int.
+...user_newtalk.user_id is already unsigned int.
+...user_properties.up_user is already unsigned int.
+...site_stats is populated...done.
+...Update 'populate rev_len and ar_len' already logged as completed.
+...Update 'populate rev_sha1' already logged as completed.
+...img_sha1 column of image table already populated.
+...protocol-relative URLs in externallinks table already fixed.
+...fa_sha1 column of filearchive table already populated.
+...*_from_namespace column of backlink tables already populated.
+...Update 'FixDefaultJsonContentPages' already logged as completed.
+...Update 'cleanup empty categories' already logged as completed.
+...RFC and PMID already added to interwiki database table.
+Populating page_props.pp_sortkey...
+Populating page_props.pp_sortkey complete.
+...Update 'populate ip_changes' already logged as completed.
+Set the local repo temp zone container to be private.
+Purging caches...done.
+
+Done in 0.4 s.
